@@ -98,6 +98,7 @@ elif _platform == "darwin":
     CXX_FLAGS += '-framework Cocoa '
     CXX_FLAGS += '-framework OpenGL '
     CXX_FLAGS += '-framework GLUT '
+    CXX_FLAGS += '-stdlib=libc++ '
     CXX_FLAGS += '-mmacosx-version-min=10.9 '
 
     # libraries += ['GLUT', 'Cocoa', 'OpenGL']
